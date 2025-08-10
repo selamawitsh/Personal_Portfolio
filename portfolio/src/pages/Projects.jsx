@@ -1,10 +1,17 @@
 import React from "react";
-import { SiTailwindcss, SiVercel, SiReact, SiMongodb, SiExpress, SiNodedotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiVercel,
+  SiReact,
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs,
+} from "react-icons/si";
 import Navbar from "../components/Navbar";
-import personalExpenseTracker from '../assets/personalExpenseTracker.png';
-import employee_management from '../assets/employee_management.png';
-import job_board from '../assets/job_board.png'
-import event_registration from '../assets/event_registration.png';
+import personalExpenseTracker from "../assets/personalExpenseTracker.png";
+import employee_management from "../assets/employee_management.png";
+import job_board from "../assets/job_board.png";
+import event_registration from "../assets/event_registration.png";
 
 const projects = [
   {
@@ -62,7 +69,10 @@ export default function Projects() {
   return (
     <>
       <Navbar />
-      <section id="projects" className="min-h-screen bg-gradient-to-r from-white via-gray-100 to-white dark:from-black dark:via-gray-900 dark:to-black text-gray-900 dark:text-white px-4 py-16 transition-colors duration-300">
+      <section
+        id="projects"
+        className="min-h-screen bg-gradient-to-br from-[#f3f3f7] via-[#eae9e5] to-[#d4d2cd] dark:from-[#23232b] dark:via-[#151518] dark:to-[#0f0f13] text-gray-900 dark:text-white px-4 py-16 transition-colors duration-300"
+      >
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-center mb-4 font-serif">
             Projects

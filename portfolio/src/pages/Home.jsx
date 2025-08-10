@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import selam from "../assets/selam.jpg";
-import { FaGithub, FaLinkedin, FaEnvelope, FaTelegramPlane  } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaTelegramPlane,
+} from "react-icons/fa";
 
 export default function HomePage() {
   const fullName = "Selamawit Shimeles";
@@ -43,7 +48,10 @@ export default function HomePage() {
   }, [fullName]);
 
   return (
-    <section id="home"  className="min-h-screen bg-gradient-to-r from-white via-gray-100 to-white dark:from-black dark:via-gray-900 dark:to-black text-gray-900 dark:text-white flex flex-col justify-center items-center pt-24 px-6 transition-colors duration-300">
+    <section
+      id="home"
+      className="min-h-screen bg-gradient-to-br from-[#eae9e5] via-[#e7e5e1] to-[#cfcbc5] dark:from-[#151518] dark:via-[#23232b] dark:to-[#0f0f13] text-gray-900 dark:text-white flex flex-col justify-center items-center pt-24 px-6 transition-colors duration-300"
+    >
       <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-14 max-w-5xl w-full">
         {/* Profile Image */}
         <div className="flex-shrink-0">
@@ -75,7 +83,7 @@ export default function HomePage() {
             </a>
 
             <a href="https://t.me/Ortho_pia">
-              <FaTelegramPlane  className="hover:text-gray-400 transition" />
+              <FaTelegramPlane className="hover:text-gray-400 transition" />
             </a>
           </div>
           <h1 className="text-6xl font-bold mb-4 min-h-[70px]">
@@ -83,7 +91,8 @@ export default function HomePage() {
             <span className="animate-pulse">|</span>
           </h1>
           <p className="text-2xl text-gray-600 dark:text-gray-300">
-            MERN Stack Engineer <span className="text-xl">|</span> Backend-Focused Software Developer
+            MERN Stack Engineer <span className="text-xl">|</span>{" "}
+            Backend-Focused Software Developer
           </p>
         </div>
       </div>

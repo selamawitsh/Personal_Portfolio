@@ -14,7 +14,8 @@ export default function Contact() {
 
       <div
         id="contact"
-        className="min-h-screen bg-black text-white flex items-center justify-center px-4"
+        className="min-h-screen bg-gradient-to-r from-[#f3f3f7] via-[#eae9e5] to-[#d4d2cd] dark:from-[#23232b] dark:via-[#151518] dark:to-[#0f0f13] text-gray-900 dark:text-white flex items-center justify-center px-4 transition-colors duration-300"
+        
       >
         <div className="max-w-5xl w-full grid md:grid-cols-2 gap-10">
           {/* Left Section */}

@@ -10,11 +10,11 @@ function App() {
     <>
       <Navbar />
       <main>
-        <HomePage />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
+          <HomePage />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
       </main>
     </>
   );
